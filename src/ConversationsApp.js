@@ -71,12 +71,8 @@ class ConversationsApp extends React.Component {
     // const ChatGrant = AccessToken.ChatGrant;
 
     // // Used when generating any kind of tokens
-    // const twilioAccountSid = "ACf3a669cb14e5706b596c0f54d03a7762";
-    // const twilioApiKey = "SKa890fbb052fef6c67f8c0bddd9028b96";
-    // const twilioApiSecret = "gokFCRSKjHpmGc2wacFjNUv5c2QvEAeC";
 
     // // Used specifically for creating Chat tokens
-    // const serviceSid = "IS48afbb78536348be9f26c372537e9e9a";
     // const identity = "Tack";
 
     // // Create a "grant" which enables a client to use Chat as a given user,
@@ -101,7 +97,7 @@ class ConversationsApp extends React.Component {
 
     // Paste your unique Chat token function
     const myToken =
-      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTS2E4OTBmYmIwNTJmZWY2YzY3ZjhjMGJkZGQ5MDI4Yjk2LTE2NTQxMTQ0MzMiLCJncmFudHMiOnsiaWRlbnRpdHkiOiJUYWNrIiwiY2hhdCI6eyJzZXJ2aWNlX3NpZCI6IklTNDhhZmJiNzg1MzYzNDhiZTlmMjZjMzcyNTM3ZTllOWEifX0sImlhdCI6MTY1NDExNDQzMywiZXhwIjoxNjU0MTE4MDMzLCJpc3MiOiJTS2E4OTBmYmIwNTJmZWY2YzY3ZjhjMGJkZGQ5MDI4Yjk2Iiwic3ViIjoiQUNmM2E2NjljYjE0ZTU3MDZiNTk2YzBmNTRkMDNhNzc2MiJ9.d7Y_11ZOJy1a5lzI7C_aA-zyLNsLXzZnnVMivhq85W8";
+      "";
     this.setState({ token: myToken }, this.initConversations);
   };
 
